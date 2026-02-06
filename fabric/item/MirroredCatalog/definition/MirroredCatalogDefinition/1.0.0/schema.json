@@ -60,9 +60,9 @@
       "title": "Source Type",
       "description": "The type of the source catalog. Additional source types may be added over time.",
       "enum": [
-        "Dremio",
-        "AWSGlue",
-        "Polaris"
+        "DremioIcebergCatalog",
+        "AWSIcebergCatalog",
+        "GoogleBigLakeIcebergCatalog"
       ]
     },
     "SourceTypeProperties": {
